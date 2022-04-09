@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{text-align: center; 
+        color: rgb(39, 5, 63); border-style:dashed;}
+        h2{text-align: center; color:rgb(48, 1, 82);}
+        img{display: block; margin: 0 auto;}
+        p{color: rgb(22, 68, 60); font-size: 17px;
+        font-weight: bold;}
+
+        button{background-color:chocolate;
+        color: rgb(245, 243, 240);
+        font-size: medium;}
+
+        ul{font-size: medium;}
+
+        .built{color: rgb(48, 27, 4);}
+        
+body{background-color: burlywood;}
+    </style>
+</head>
+<body>
+   <h1> Candles </h1>
+   <h2> Candles are beautiful and relaxing. </h2>
+   <img src="https://nationaltoday.com/wp-content/uploads/2020/08/world-candle-month.jpg" 
+   height="500px" width="600" alt="Candles">
+
+   <hr>
+   <p> <em> <strong> Candles are the perfect thing to use to help unwind after a long day. 
+       They can include essential  oils to help ease your mind. They come in scents that can help transport you to various places. 
+   </strong>
+    </em>
+   </p>
+
+   <button> <em> <strong>Join our Candle Contact Club</strong> </em> </button>
+
+<h4> <span style="color:rgb(85, 16, 85)"> Must Try </span>  Candle Brands</h4>
+
+<ul>    
+<li>
+    <a href="https://copperwingscandleco.com/collections/all" target="_blank"> Copper Wings Candle Co. </a>
+</li>
+
+ <li>
+   <a href="https://forvrmood.com/collections/candles" target="_blank"> Forver Mood </a>
+</li>
+
+<li>
+    <a href="https://www.lagunacandles.com/collections/shop-all-collections" target="_blank"> Laguna Candles </a>
+</li>
+</ul>
+
+
+<div class="built"> <strong> This page was built by <a href="https://www.linkedin.com/in/faith-holmes-54b577230/" target="_blank"> Faith Holmes.</a> 
+</strong></div>
+<script>
+    function contact (){let email = prompt ("What is your email?"); 
+                         let thanks = alert ( "We will be in contact soon!");}
+    
+    let candles = prompt ("How many candles do you have?");
+    if(candles <5) {alert ("Time to buy more candles!😊");}
+    else {alert ("What candle will be next?😍")}
+
+    let button = document.querySelector("button");
+    button.addEventListener ("click" , contact)
+</script>
+</body>
+</html>
